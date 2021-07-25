@@ -4,10 +4,13 @@ metadata:
   name: hello-gitops
 spec:
   rules:
-    - http:
+    - host: hello-gitops.info
+      http:
         paths:
           - path: /
             pathType: Prefix
             backend:
-              serviceName: hello-gitops
-              servicePort: http
+              service:
+                name: web
+                port:
+                  number: 8080
