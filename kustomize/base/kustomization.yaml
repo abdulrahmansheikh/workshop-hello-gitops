@@ -8,4 +8,4 @@ namespace: hello-gitops
 images:
 - name: hello-gitops
   newName: abdulrahmansheikh/public-repo
-  newTag: fb619b99efc6295293c0e9b91bcb54674a587ac1
+  newTag: 5758101de8725583720bf5608d410c3ebcb6eacb
