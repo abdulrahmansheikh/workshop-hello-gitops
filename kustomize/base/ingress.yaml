@@ -4,7 +4,7 @@ metadata:
   name: hello-gitops
 spec:
   rules:
-    - host: hello-gitops.info
+    - host: hello-gitops.infop
       http:
         paths:
           - path: /
